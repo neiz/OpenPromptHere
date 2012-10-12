@@ -1,0 +1,7 @@
+Add "Open Prompt Here" to Windows Context Menus
+
+[HKEY_CLASSES_ROOT\*\shell\Open Prompt Here\command]
+@=”C:\\Windows\\SysWOW64\\cmd.exe "%1"”
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\Open Prompt Here\command]
+@=”C:\\Windows\\SysWOW64\\cmd.exe”

@@ -1,0 +1,5 @@
+Remove "Open Prompt Here" from Windows Context Menus
+
+[-HKEY_CLASSES_ROOT\*\shell\Open Prompt Here]
+
+[-HKEY_CLASSES_ROOT\Directory\background\shell\Open Prompt Here]
